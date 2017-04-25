@@ -1,0 +1,18 @@
+name: ChatClear
+main: net.battleheroes.java.chatclear.MainClass
+version: 2.3.3
+author: BattleHeroesTeam
+description: I clear things over here..
+commands:
+    cc:
+        usage: /<command>
+        permission: chatclear.chat
+        description: Clears nasty stuff from chat.
+    cmc:
+        usage: /<command>
+        permission: chatclear.self
+        description: Clears nasty stuff from personal chat.
+    cco:
+        usage: /<command>
+        description: Clears nasty stuff from others chat.
+        permission: chatclear.other

@@ -1,0 +1,30 @@
+# Be so kind and give plugin 5 star review on spigot if you like it
+# Spigot https://www.spigotmc.org/resources/ultra-lightweight-chatclear-100-customizable.39092/
+
+# Use of ColorCodes is enabled!
+
+Prefix: '&8[&bChatClear&8]'
+
+# Message that should be shown when you clear global chat.
+# Use of Color Codes is enabled!
+
+GlobalClear: '&aThe chat has been cleared by&7:'
+
+# Message that should be shown when you clear your chat.
+# Use of Color Codes is enabled!
+
+SelfClear: '&a&lThe chat has been cleared&8.'
+ClearedOther: '&a&lYou successfully cleared his/her chat!'
+OtherClearedMyChat: '&4&lOh no! &bSomeone cleared your chat&8,&b i think there was something you should not see? but did you :O?'
+
+# How many lines of chat to clear, This is also for self clear.
+# Remember 0 is starting number so to get 100 just put 99.
+# DO NOT PUT IN STRINGS! ONLY NUMBERS OR PLUGIN WONT WORK!
+
+LineClear: 110
+
+# Plugin load and plugin unload messages
+# You are able to use Color Codes if you wish.
+
+OnStart: '&fHas been &aEnabled'
+OnStop: '&fHas been &4Disabled'
